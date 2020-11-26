@@ -4,7 +4,7 @@ import allure
 from api.user import user
 from common.logger import logger
 from core.result_base import ResultBase
-from testcases.test_config import api_data
+from testcases.conftest import api_data
 
 
 def register_user(username, nickname, password):

@@ -1,6 +1,5 @@
+from api.api_config import BASE_URL
 from core.rest_client import RestClient
-
-BASE_URL = "https://jotyy.top/crud"
 
 
 class User(RestClient):

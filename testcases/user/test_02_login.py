@@ -4,7 +4,7 @@ import pytest
 from api.user import user
 from common.logger import logger
 from core.result_base import ResultBase
-from testcases.test_config import api_data
+from testcases.conftest import api_data
 
 
 def login_user(username, password):
