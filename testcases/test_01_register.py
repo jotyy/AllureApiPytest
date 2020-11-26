@@ -1,4 +1,5 @@
 import pytest
+import allure
 
 from api.user import user
 from common.logger import logger
@@ -15,15 +16,13 @@ def register_user(username, nickname, password):
     :return: 用户信息
     """
     result = ResultBase()
-    header = {
-        "Content-Type": "multipart/form-data"
-    }
     params = {
-        "user_name": username,
-        "nickname": nickname,
-        "password": password
+        "user_name": (None, username),
+        "nickname": (None, nickname),
+        "password": (None, password),
     }
-    res = user.register(headers=header, params=params)
+    res = user.register(params=params)
+    result.success = False
     if res.json()["code"] == 0:
         result.success = True
     else:
@@ -34,18 +33,26 @@ def register_user(username, nickname, password):
     return result
 
 
+@allure.step("步骤1 ==>> 注册用户")
 def step_1(username, nickname, password):
     logger.info("Step1 ==>> 注册用户 ==>> {},{},{}".format(username, nickname, password))
 
 
+@allure.severity(allure.severity_level.NORMAL)
+@allure.epic("测试注册接口")
+@allure.feature("用户注册模块")
 class TestUserRegister:
+
+    @allure.story("用例---注册用户")
+    @allure.description("该用例为针对用户注册接口的测试")
+    @allure.title(
+        "测试数据：【{username}，{nickname}，{password}，{expect_result}，{expect_code}，{expect_msg}】"
+    )
+    @pytest.mark.single
     @pytest.mark.parametrize("username, nickname, password, expect_result, expect_code, expect_msg",
                              api_data["test_register_user"])
     def test_register_user(self, username, nickname, password, expect_result, expect_code, expect_msg):
         result = register_user(username, nickname, password)
-        assert result.success == expect_result, result.error
-        assert result.response.status_code == 200
-        assert result.success == expect_result, result.error
         assert result.response.json().get("code") == expect_code
         assert expect_msg in result.msg
 

@@ -1,0 +1,35 @@
+[32mINFO    [0m log:rest_client.py:53 接口请求地址 ==>> https://jotyy.top/crud/register
+[32mINFO    [0m log:rest_client.py:54 接口请求方式 ==>> POST
+[32mINFO    [0m log:rest_client.py:56 接口请求头 ==>> null
+[32mINFO    [0m log:rest_client.py:57 接口请求 params 参数 ==>> {
+    "user_name": [
+        null,
+        "test1"
+    ],
+    "nickname": [
+        null,
+        "test2"
+    ],
+    "password": [
+        null,
+        "123456"
+    ]
+}
+[32mINFO    [0m log:rest_client.py:58 接口请求体 data 参数 ==>> null
+[32mINFO    [0m log:rest_client.py:59 接口请求体 json 参数 ==>> null
+[32mINFO    [0m log:rest_client.py:60 接口上传附件 files 参数 ==>> {'user_name': (None, 'test1'), 'nickname': (None, 'test2'), 'password': (None, '123456')}
+[32mINFO    [0m log:rest_client.py:61 接口 cookies 参数 ==>> {
+    "user_name": [
+        null,
+        "test1"
+    ],
+    "nickname": [
+        null,
+        "test2"
+    ],
+    "password": [
+        null,
+        "123456"
+    ]
+}
+[32mINFO    [0m log:test_01_register.py:32 注册用户 ==>> 返回结果 ==>> {"code":40001,"msg":"用户名已注册","data":null}
