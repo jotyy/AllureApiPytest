@@ -10,3 +10,8 @@ test_login_user:
   - ["test1", "123456", True, 0, "登录成功"]
   - ["test11", "123456", False, 40001, "账号或密码错误"]
   - ["test1", "1234567", False, 40001, "账号或密码错误"]
+
+test_unregister_user:
+  # 用户名,期望结果,期望返回码,期望返回信息
+  # username, expect_result, expect_code, expect_msg
+  - [ "test1", True, 0, "注销成功" ]

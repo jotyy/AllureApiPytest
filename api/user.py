@@ -2,6 +2,7 @@ from core.rest_client import RestClient
 
 BASE_URL = "https://jotyy.top/crud"
 
+
 class User(RestClient):
 
     def __init__(self, api_base_url, **kwargs):
@@ -12,6 +13,9 @@ class User(RestClient):
 
     def register(self, **kwargs):
         return self.post("/register", **kwargs)
+
+    def unregister(self, **kwargs):
+        return self.delete("/unregister", **kwargs)
 
 
 user = User(BASE_URL)
