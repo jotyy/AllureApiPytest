@@ -1,0 +1,134 @@
+{
+  "uid" : "a72c98e17f59aea7",
+  "name" : "测试数据：【test1，test，123456，True，0，注册成功】",
+  "fullName" : "testcases.user.test_01_register.TestUserRegister#test_register_user",
+  "historyId" : "a411128515a1679c2a385a9d8b74b711",
+  "time" : {
+    "start" : 1606385174416,
+    "stop" : 1606385175575,
+    "duration" : 1159
+  },
+  "description" : "该用例为针对用户注册接口的测试",
+  "descriptionHtml" : "<p>该用例为针对用户注册接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该用例为针对用户注册接口的测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5d2a7b461494e955",
+      "name" : "log",
+      "source" : "5d2a7b461494e955.txt",
+      "type" : "text/plain",
+      "size" : 1315
+    }, {
+      "uid" : "9661b4c855828e1b",
+      "name" : "stderr",
+      "source" : "9661b4c855828e1b.txt",
+      "type" : "text/plain",
+      "size" : 1506
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例---注册用户"
+  }, {
+    "name" : "epic",
+    "value" : "测试注册接口"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "用户注册模块"
+  }, {
+    "name" : "tag",
+    "value" : "single"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserRegister"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-210"
+  }, {
+    "name" : "thread",
+    "value" : "3949-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.user.test_01_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "0"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'注册成功'"
+  }, {
+    "name" : "expect_result",
+    "value" : "True"
+  }, {
+    "name" : "nickname",
+    "value" : "'test'"
+  }, {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "username",
+    "value" : "'test1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "d81f1ae35dbbf18d",
+        "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/d81f1ae35dbbf18d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606384959470,
+          "stop" : 1606384960513,
+          "duration" : 1043
+        }
+      } ]
+    },
+    "tags" : [ "single" ]
+  },
+  "source" : "a72c98e17f59aea7.json",
+  "parameterValues" : [ "0", "'注册成功'", "True", "'test'", "'123456'", "'test1'" ]
+}

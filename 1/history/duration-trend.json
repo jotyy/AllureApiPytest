@@ -3,6 +3,13 @@
   "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 8323
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 7532
   }
 } ]

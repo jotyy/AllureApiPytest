@@ -4,11 +4,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "63df0d36c4d3a7b2",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/63df0d36c4d3a7b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606385177825,
+        "stop" : 1606385178898,
+        "duration" : 1073
+      }
+    }, {
       "uid" : "b05f4994916ce344",
       "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/b05f4994916ce344",
       "status" : "passed",
@@ -24,11 +33,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "c734e0b05823358e",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/c734e0b05823358e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606385178903,
+        "stop" : 1606385180066,
+        "duration" : 1163
+      }
+    }, {
       "uid" : "6004600ed54aacde",
       "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/6004600ed54aacde",
       "status" : "passed",
@@ -44,11 +62,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a72c98e17f59aea7",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/a72c98e17f59aea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606385174416,
+        "stop" : 1606385175575,
+        "duration" : 1159
+      }
+    }, {
       "uid" : "d81f1ae35dbbf18d",
       "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/d81f1ae35dbbf18d",
       "status" : "passed",
@@ -64,11 +91,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "84399511082cdbb7",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/84399511082cdbb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606385175580,
+        "stop" : 1606385176658,
+        "duration" : 1078
+      }
+    }, {
       "uid" : "e17c2f78d9539d99",
       "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/e17c2f78d9539d99",
       "status" : "passed",
@@ -84,11 +120,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "dd14fdb09ca37f7b",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/dd14fdb09ca37f7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606385180073,
+        "stop" : 1606385181113,
+        "duration" : 1040
+      }
+    }, {
       "uid" : "7ba3834a930216a8",
       "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/7ba3834a930216a8",
       "status" : "passed",
@@ -104,11 +149,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7cc19741ce163ef5",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/7cc19741ce163ef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606385176663,
+        "stop" : 1606385177821,
+        "duration" : 1158
+      }
+    }, {
       "uid" : "6e2b93fd4c7504a5",
       "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/6e2b93fd4c7504a5",
       "status" : "passed",
@@ -124,11 +178,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "a7472b2c6e265988",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/a7472b2c6e265988",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606385172790,
+        "stop" : 1606385174391,
+        "duration" : 1601
+      }
+    }, {
       "uid" : "6b26c16e0cb09dda",
       "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/6b26c16e0cb09dda",
       "status" : "passed",

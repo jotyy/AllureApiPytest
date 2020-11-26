@@ -1,70 +1,70 @@
 [ {
-  "uid" : "b05f4994916ce344",
-  "name" : "测试数据：【test11，123456，False，40001，账号或密码错误】",
+  "uid" : "a72c98e17f59aea7",
+  "name" : "测试数据：【test1，test，123456，True，0，注册成功】",
   "time" : {
-    "start" : 1606384962553,
-    "stop" : 1606384963526,
-    "duration" : 973
+    "start" : 1606385174416,
+    "stop" : 1606385175575,
+    "duration" : 1159
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6b26c16e0cb09dda",
-  "name" : "测试数据：【True，0，获取文章列表成功】",
-  "time" : {
-    "start" : 1606384958018,
-    "stop" : 1606384959457,
-    "duration" : 1439
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7ba3834a930216a8",
-  "name" : "测试数据：【test1，True，0，注销成功】",
-  "time" : {
-    "start" : 1606384964577,
-    "stop" : 1606384965550,
-    "duration" : 973
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e2b93fd4c7504a5",
+  "uid" : "7cc19741ce163ef5",
   "name" : "测试数据：【test1，123456，True，0，登录成功】",
   "time" : {
-    "start" : 1606384961485,
-    "stop" : 1606384962549,
-    "duration" : 1064
+    "start" : 1606385176663,
+    "stop" : 1606385177821,
+    "duration" : 1158
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e17c2f78d9539d99",
+  "uid" : "84399511082cdbb7",
   "name" : "测试数据：【test1，test2，123456，False，40001，用户名已注册】",
   "time" : {
-    "start" : 1606384960517,
-    "stop" : 1606384961479,
-    "duration" : 962
+    "start" : 1606385175580,
+    "stop" : 1606385176658,
+    "duration" : 1078
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6004600ed54aacde",
-  "name" : "测试数据：【test1，1234567，False，40001，账号或密码错误】",
+  "uid" : "a7472b2c6e265988",
+  "name" : "测试数据：【True，0，获取文章列表成功】",
   "time" : {
-    "start" : 1606384963531,
-    "stop" : 1606384964571,
+    "start" : 1606385172790,
+    "stop" : 1606385174391,
+    "duration" : 1601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd14fdb09ca37f7b",
+  "name" : "测试数据：【test1，True，0，注销成功】",
+  "time" : {
+    "start" : 1606385180073,
+    "stop" : 1606385181113,
     "duration" : 1040
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d81f1ae35dbbf18d",
-  "name" : "测试数据：【test1，test，123456，True，0，注册成功】",
+  "uid" : "c734e0b05823358e",
+  "name" : "测试数据：【test1，1234567，False，40001，账号或密码错误】",
   "time" : {
-    "start" : 1606384959470,
-    "stop" : 1606384960513,
-    "duration" : 1043
+    "start" : 1606385178903,
+    "stop" : 1606385180066,
+    "duration" : 1163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63df0d36c4d3a7b2",
+  "name" : "测试数据：【test11，123456，False，40001，账号或密码错误】",
+  "time" : {
+    "start" : 1606385177825,
+    "stop" : 1606385178898,
+    "duration" : 1073
   },
   "status" : "passed",
   "severity" : "normal"

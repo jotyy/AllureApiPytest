@@ -8,13 +8,13 @@
         "name" : "用例---获取所有文章",
         "children" : [ {
           "name" : "测试数据：【True，0，获取文章列表成功】",
-          "uid" : "6b26c16e0cb09dda",
+          "uid" : "a7472b2c6e265988",
           "parentUid" : "037193ea357cc5ba870e3f5950763406",
           "status" : "passed",
           "time" : {
-            "start" : 1606384958018,
-            "stop" : 1606384959457,
-            "duration" : 1439
+            "start" : 1606385172790,
+            "stop" : 1606385174391,
+            "duration" : 1601
           },
           "flaky" : false,
           "newFailed" : false,
@@ -33,26 +33,26 @@
         "name" : "用例---注册用户",
         "children" : [ {
           "name" : "测试数据：【test1，test，123456，True，0，注册成功】",
-          "uid" : "d81f1ae35dbbf18d",
+          "uid" : "a72c98e17f59aea7",
           "parentUid" : "c4df5384e6a88d9832c782b87ceb79a3",
           "status" : "passed",
           "time" : {
-            "start" : 1606384959470,
-            "stop" : 1606384960513,
-            "duration" : 1043
+            "start" : 1606385174416,
+            "stop" : 1606385175575,
+            "duration" : 1159
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "0", "'注册成功'", "True", "'test'", "'123456'", "'test1'" ]
         }, {
           "name" : "测试数据：【test1，test2，123456，False，40001，用户名已注册】",
-          "uid" : "e17c2f78d9539d99",
+          "uid" : "84399511082cdbb7",
           "parentUid" : "c4df5384e6a88d9832c782b87ceb79a3",
           "status" : "passed",
           "time" : {
-            "start" : 1606384960517,
-            "stop" : 1606384961479,
-            "duration" : 962
+            "start" : 1606385175580,
+            "stop" : 1606385176658,
+            "duration" : 1078
           },
           "flaky" : false,
           "newFailed" : false,
@@ -71,39 +71,39 @@
         "name" : "用例---登录用户",
         "children" : [ {
           "name" : "测试数据：【test1，123456，True，0，登录成功】",
-          "uid" : "6e2b93fd4c7504a5",
+          "uid" : "7cc19741ce163ef5",
           "parentUid" : "52c97397e5cdf9f912b83781f4809691",
           "status" : "passed",
           "time" : {
-            "start" : 1606384961485,
-            "stop" : 1606384962549,
-            "duration" : 1064
+            "start" : 1606385176663,
+            "stop" : 1606385177821,
+            "duration" : 1158
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "0", "'登录成功'", "True", "'123456'", "'test1'" ]
         }, {
           "name" : "测试数据：【test11，123456，False，40001，账号或密码错误】",
-          "uid" : "b05f4994916ce344",
+          "uid" : "63df0d36c4d3a7b2",
           "parentUid" : "52c97397e5cdf9f912b83781f4809691",
           "status" : "passed",
           "time" : {
-            "start" : 1606384962553,
-            "stop" : 1606384963526,
-            "duration" : 973
+            "start" : 1606385177825,
+            "stop" : 1606385178898,
+            "duration" : 1073
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "40001", "'账号或密码错误'", "False", "'123456'", "'test11'" ]
         }, {
           "name" : "测试数据：【test1，1234567，False，40001，账号或密码错误】",
-          "uid" : "6004600ed54aacde",
+          "uid" : "c734e0b05823358e",
           "parentUid" : "52c97397e5cdf9f912b83781f4809691",
           "status" : "passed",
           "time" : {
-            "start" : 1606384963531,
-            "stop" : 1606384964571,
-            "duration" : 1040
+            "start" : 1606385178903,
+            "stop" : 1606385180066,
+            "duration" : 1163
           },
           "flaky" : false,
           "newFailed" : false,
@@ -122,13 +122,13 @@
         "name" : "用例---注销用户",
         "children" : [ {
           "name" : "测试数据：【test1，True，0，注销成功】",
-          "uid" : "7ba3834a930216a8",
+          "uid" : "dd14fdb09ca37f7b",
           "parentUid" : "e0b935ac0bd4c32255dfb7865bc98ef8",
           "status" : "passed",
           "time" : {
-            "start" : 1606384964577,
-            "stop" : 1606384965550,
-            "duration" : 973
+            "start" : 1606385180073,
+            "stop" : 1606385181113,
+            "duration" : 1040
           },
           "flaky" : false,
           "newFailed" : false,

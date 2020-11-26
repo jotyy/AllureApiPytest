@@ -1,0 +1,140 @@
+{
+  "uid" : "a7472b2c6e265988",
+  "name" : "测试数据：【True，0，获取文章列表成功】",
+  "fullName" : "testcases.article.test_01_get_all_articles.TestGetAllArticles#test_get_all_articles",
+  "historyId" : "b20d609904a3f883d322776ca60b5b57",
+  "time" : {
+    "start" : 1606385172790,
+    "stop" : 1606385174391,
+    "duration" : 1601
+  },
+  "description" : "该用例为针对获取文章列表接口的测试",
+  "descriptionHtml" : "<p>该用例为针对获取文章列表接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "authorization",
+    "time" : {
+      "start" : 1606385170927,
+      "stop" : 1606385172789,
+      "duration" : 1862
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "该用例为针对获取文章列表接口的测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aed5170e4b45a290",
+      "name" : "log",
+      "source" : "aed5170e4b45a290.txt",
+      "type" : "text/plain",
+      "size" : 78536
+    }, {
+      "uid" : "89fd8cf5c833f5c0",
+      "name" : "stderr",
+      "source" : "89fd8cf5c833f5c0.txt",
+      "type" : "text/plain",
+      "size" : 78727
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "测试文章接口"
+  }, {
+    "name" : "feature",
+    "value" : "文章模块"
+  }, {
+    "name" : "story",
+    "value" : "用例---获取所有文章"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "single"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.article"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_get_all_articles"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetAllArticles"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-210"
+  }, {
+    "name" : "thread",
+    "value" : "3949-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.article.test_01_get_all_articles"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "0"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'获取文章列表成功'"
+  }, {
+    "name" : "expect_result",
+    "value" : "True"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6b26c16e0cb09dda",
+        "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/6b26c16e0cb09dda",
+        "status" : "passed",
+        "time" : {
+          "start" : 1606384958018,
+          "stop" : 1606384959457,
+          "duration" : 1439
+        }
+      } ]
+    },
+    "tags" : [ "single" ]
+  },
+  "source" : "a7472b2c6e265988.json",
+  "parameterValues" : [ "0", "'获取文章列表成功'", "True" ]
+}
