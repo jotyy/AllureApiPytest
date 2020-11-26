@@ -26,12 +26,12 @@ def step_1(header):
 
 
 @allure.severity(allure.severity_level.NORMAL)
-@allure.epic("测试注销接口")
+@allure.epic("测试文章接口")
 @allure.feature("文章模块")
 class TestGetAllArticles:
 
     @allure.story("用例---获取所有文章")
-    @allure.description("该用例为针对用户注销接口的测试")
+    @allure.description("该用例为针对获取文章列表接口的测试")
     @allure.title(
         "测试数据：【{expect_result}，{expect_code}，{expect_msg}】"
     )
