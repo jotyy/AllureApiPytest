@@ -1,0 +1,108 @@
+{
+  "uid" : "7ba3834a930216a8",
+  "name" : "测试数据：【test1，True，0，注销成功】",
+  "fullName" : "testcases.user.test_03_unregister.TestUserUnRegister#test_unregister_user",
+  "historyId" : "c29997e4d3f0fedc1172840969a01214",
+  "time" : {
+    "start" : 1606384964577,
+    "stop" : 1606384965550,
+    "duration" : 973
+  },
+  "description" : "该用例为针对用户注销接口的测试",
+  "descriptionHtml" : "<p>该用例为针对用户注销接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该用例为针对用户注销接口的测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f590070ba7b274a",
+      "name" : "log",
+      "source" : "4f590070ba7b274a.txt",
+      "type" : "text/plain",
+      "size" : 733
+    }, {
+      "uid" : "df451bb1300226ef",
+      "name" : "stderr",
+      "source" : "df451bb1300226ef.txt",
+      "type" : "text/plain",
+      "size" : 924
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户注销模块"
+  }, {
+    "name" : "epic",
+    "value" : "测试注销接口"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用例---注销用户"
+  }, {
+    "name" : "tag",
+    "value" : "single"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_03_unregister"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserUnRegister"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-210"
+  }, {
+    "name" : "thread",
+    "value" : "4006-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.user.test_03_unregister"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "0"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'注销成功'"
+  }, {
+    "name" : "expect_result",
+    "value" : "True"
+  }, {
+    "name" : "username",
+    "value" : "'test1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "single" ]
+  },
+  "source" : "7ba3834a930216a8.json",
+  "parameterValues" : [ "0", "'注销成功'", "True", "'test1'" ]
+}

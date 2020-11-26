@@ -1,0 +1,136 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "testcases.article",
+    "children" : [ {
+      "name" : "test_01_get_all_articles",
+      "children" : [ {
+        "name" : "TestGetAllArticles",
+        "children" : [ {
+          "name" : "测试数据：【True，0，获取文章列表成功】",
+          "uid" : "6b26c16e0cb09dda",
+          "parentUid" : "3ec20fb3ed0eabf6a99172fc486c9a7f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606384958018,
+            "stop" : 1606384959457,
+            "duration" : 1439
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0", "'获取文章列表成功'", "True" ]
+        } ],
+        "uid" : "3ec20fb3ed0eabf6a99172fc486c9a7f"
+      } ],
+      "uid" : "8351f878739d681d26733fd138132e90"
+    } ],
+    "uid" : "3e6ac0165a69a6b5ea867029e8bf7418"
+  }, {
+    "name" : "testcases.user",
+    "children" : [ {
+      "name" : "test_01_register",
+      "children" : [ {
+        "name" : "TestUserRegister",
+        "children" : [ {
+          "name" : "测试数据：【test1，test，123456，True，0，注册成功】",
+          "uid" : "d81f1ae35dbbf18d",
+          "parentUid" : "1ef6b7e1be8fe6939cf713156142e7fa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606384959470,
+            "stop" : 1606384960513,
+            "duration" : 1043
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0", "'注册成功'", "True", "'test'", "'123456'", "'test1'" ]
+        }, {
+          "name" : "测试数据：【test1，test2，123456，False，40001，用户名已注册】",
+          "uid" : "e17c2f78d9539d99",
+          "parentUid" : "1ef6b7e1be8fe6939cf713156142e7fa",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606384960517,
+            "stop" : 1606384961479,
+            "duration" : 962
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "40001", "'用户名已注册'", "False", "'test2'", "'123456'", "'test1'" ]
+        } ],
+        "uid" : "1ef6b7e1be8fe6939cf713156142e7fa"
+      } ],
+      "uid" : "87c38bcba470b2cd9ed1d78245baf96d"
+    }, {
+      "name" : "test_02_login",
+      "children" : [ {
+        "name" : "TestUserLogin",
+        "children" : [ {
+          "name" : "测试数据：【test1，123456，True，0，登录成功】",
+          "uid" : "6e2b93fd4c7504a5",
+          "parentUid" : "7643b3adea801ea183288503ad64e36e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606384961485,
+            "stop" : 1606384962549,
+            "duration" : 1064
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0", "'登录成功'", "True", "'123456'", "'test1'" ]
+        }, {
+          "name" : "测试数据：【test11，123456，False，40001，账号或密码错误】",
+          "uid" : "b05f4994916ce344",
+          "parentUid" : "7643b3adea801ea183288503ad64e36e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606384962553,
+            "stop" : 1606384963526,
+            "duration" : 973
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "40001", "'账号或密码错误'", "False", "'123456'", "'test11'" ]
+        }, {
+          "name" : "测试数据：【test1，1234567，False，40001，账号或密码错误】",
+          "uid" : "6004600ed54aacde",
+          "parentUid" : "7643b3adea801ea183288503ad64e36e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606384963531,
+            "stop" : 1606384964571,
+            "duration" : 1040
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "40001", "'账号或密码错误'", "False", "'1234567'", "'test1'" ]
+        } ],
+        "uid" : "7643b3adea801ea183288503ad64e36e"
+      } ],
+      "uid" : "d3bb02e86309575f10940b96b2290739"
+    }, {
+      "name" : "test_03_unregister",
+      "children" : [ {
+        "name" : "TestUserUnRegister",
+        "children" : [ {
+          "name" : "测试数据：【test1，True，0，注销成功】",
+          "uid" : "7ba3834a930216a8",
+          "parentUid" : "e8dae9749e0f633c0dc2293e86aefc85",
+          "status" : "passed",
+          "time" : {
+            "start" : 1606384964577,
+            "stop" : 1606384965550,
+            "duration" : 973
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0", "'注销成功'", "True", "'test1'" ]
+        } ],
+        "uid" : "e8dae9749e0f633c0dc2293e86aefc85"
+      } ],
+      "uid" : "53b90dba8a5ce9e8b8e7d451016600ea"
+    } ],
+    "uid" : "223fbb4bbb737c4b3e3b9b01a7f85f60"
+  } ],
+  "name" : "suites"
+}

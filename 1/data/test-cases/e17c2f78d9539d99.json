@@ -1,0 +1,114 @@
+{
+  "uid" : "e17c2f78d9539d99",
+  "name" : "测试数据：【test1，test2，123456，False，40001，用户名已注册】",
+  "fullName" : "testcases.user.test_01_register.TestUserRegister#test_register_user",
+  "historyId" : "e3c0c20323de7165298ad868ae0654e9",
+  "time" : {
+    "start" : 1606384960517,
+    "stop" : 1606384961479,
+    "duration" : 962
+  },
+  "description" : "该用例为针对用户注册接口的测试",
+  "descriptionHtml" : "<p>该用例为针对用户注册接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该用例为针对用户注册接口的测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d0657cded5d189f0",
+      "name" : "log",
+      "source" : "d0657cded5d189f0.txt",
+      "type" : "text/plain",
+      "size" : 1086
+    }, {
+      "uid" : "3b9eb945eea372f7",
+      "name" : "stderr",
+      "source" : "3b9eb945eea372f7.txt",
+      "type" : "text/plain",
+      "size" : 1277
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例---注册用户"
+  }, {
+    "name" : "epic",
+    "value" : "测试注册接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户注册模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "single"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserRegister"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-210"
+  }, {
+    "name" : "thread",
+    "value" : "4006-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.user.test_01_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "40001"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'用户名已注册'"
+  }, {
+    "name" : "expect_result",
+    "value" : "False"
+  }, {
+    "name" : "nickname",
+    "value" : "'test2'"
+  }, {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "username",
+    "value" : "'test1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "single" ]
+  },
+  "source" : "e17c2f78d9539d99.json",
+  "parameterValues" : [ "40001", "'用户名已注册'", "False", "'test2'", "'123456'", "'test1'" ]
+}

@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://jotyy.github.io/AllureApiPytest",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #384969791",
+  "buildUrl" : "https://github.com/jotyy/AllureApiPytest/actions/runs/384969791",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1/"
+} ]

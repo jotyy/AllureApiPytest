@@ -1,0 +1,142 @@
+{
+  "493c92fc09ca605c7051770e1660ca50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b05f4994916ce344",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/b05f4994916ce344",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606384962553,
+        "stop" : 1606384963526,
+        "duration" : 973
+      }
+    } ]
+  },
+  "7cb68f5cb86c8a1134d8ce776677339f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6004600ed54aacde",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/6004600ed54aacde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606384963531,
+        "stop" : 1606384964571,
+        "duration" : 1040
+      }
+    } ]
+  },
+  "a411128515a1679c2a385a9d8b74b711" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d81f1ae35dbbf18d",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/d81f1ae35dbbf18d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606384959470,
+        "stop" : 1606384960513,
+        "duration" : 1043
+      }
+    } ]
+  },
+  "e3c0c20323de7165298ad868ae0654e9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e17c2f78d9539d99",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/e17c2f78d9539d99",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606384960517,
+        "stop" : 1606384961479,
+        "duration" : 962
+      }
+    } ]
+  },
+  "c29997e4d3f0fedc1172840969a01214" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7ba3834a930216a8",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/7ba3834a930216a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606384964577,
+        "stop" : 1606384965550,
+        "duration" : 973
+      }
+    } ]
+  },
+  "143b1438f73543d7bf29ad42e49d4192" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6e2b93fd4c7504a5",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/6e2b93fd4c7504a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606384961485,
+        "stop" : 1606384962549,
+        "duration" : 1064
+      }
+    } ]
+  },
+  "b20d609904a3f883d322776ca60b5b57" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b26c16e0cb09dda",
+      "reportUrl" : "https://jotyy.github.io/AllureApiPytest/1//#testresult/6b26c16e0cb09dda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606384958018,
+        "stop" : 1606384959457,
+        "duration" : 1439
+      }
+    } ]
+  }
+}

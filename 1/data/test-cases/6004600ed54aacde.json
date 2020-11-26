@@ -1,0 +1,111 @@
+{
+  "uid" : "6004600ed54aacde",
+  "name" : "测试数据：【test1，1234567，False，40001，账号或密码错误】",
+  "fullName" : "testcases.user.test_02_login.TestUserLogin#test_login_user",
+  "historyId" : "7cb68f5cb86c8a1134d8ce776677339f",
+  "time" : {
+    "start" : 1606384963531,
+    "stop" : 1606384964571,
+    "duration" : 1040
+  },
+  "description" : "该用例为针对用户登录接口的测试",
+  "descriptionHtml" : "<p>该用例为针对用户登录接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该用例为针对用户登录接口的测试",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f0ff85054abd367",
+      "name" : "log",
+      "source" : "1f0ff85054abd367.txt",
+      "type" : "text/plain",
+      "size" : 788
+    }, {
+      "uid" : "4280517fe3eb71ed",
+      "name" : "stderr",
+      "source" : "4280517fe3eb71ed.txt",
+      "type" : "text/plain",
+      "size" : 979
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用例---登录用户"
+  }, {
+    "name" : "epic",
+    "value" : "测试登录接口"
+  }, {
+    "name" : "feature",
+    "value" : "用户登录模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "single"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.user"
+  }, {
+    "name" : "suite",
+    "value" : "test_02_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserLogin"
+  }, {
+    "name" : "host",
+    "value" : "fv-az58-210"
+  }, {
+    "name" : "thread",
+    "value" : "4006-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.user.test_02_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect_code",
+    "value" : "40001"
+  }, {
+    "name" : "expect_msg",
+    "value" : "'账号或密码错误'"
+  }, {
+    "name" : "expect_result",
+    "value" : "False"
+  }, {
+    "name" : "password",
+    "value" : "'1234567'"
+  }, {
+    "name" : "username",
+    "value" : "'test1'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "single" ]
+  },
+  "source" : "6004600ed54aacde.json",
+  "parameterValues" : [ "40001", "'账号或密码错误'", "False", "'1234567'", "'test1'" ]
+}

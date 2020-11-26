@@ -1,0 +1,36 @@
+[2020-11-26 10:02:39,470][rest_client.py 53][INFO]: 接口请求地址 ==>> https://jotyy.top/crud/register
+[2020-11-26 10:02:39,470][rest_client.py 54][INFO]: 接口请求方式 ==>> POST
+[2020-11-26 10:02:39,470][rest_client.py 56][INFO]: 接口请求头 ==>> null
+[2020-11-26 10:02:39,471][rest_client.py 57][INFO]: 接口请求 params 参数 ==>> {
+    "user_name": [
+        null,
+        "test1"
+    ],
+    "nickname": [
+        null,
+        "test"
+    ],
+    "password": [
+        null,
+        "123456"
+    ]
+}
+[2020-11-26 10:02:39,471][rest_client.py 58][INFO]: 接口请求体 data 参数 ==>> null
+[2020-11-26 10:02:39,471][rest_client.py 59][INFO]: 接口请求体 json 参数 ==>> null
+[2020-11-26 10:02:39,471][rest_client.py 60][INFO]: 接口上传附件 files 参数 ==>> {'user_name': (None, 'test1'), 'nickname': (None, 'test'), 'password': (None, '123456')}
+[2020-11-26 10:02:39,471][rest_client.py 61][INFO]: 接口 cookies 参数 ==>> {
+    "user_name": [
+        null,
+        "test1"
+    ],
+    "nickname": [
+        null,
+        "test"
+    ],
+    "password": [
+        null,
+        "123456"
+    ]
+}
+[2020-11-26 10:02:40,512][test_01_register.py 32][INFO]: 注册用户 ==>> 返回结果 ==>> {"code":0,"msg":"注册成功","data":{"ID":75,"CreatedAt":"2020-11-26T18:02:40.392325204+08:00","UpdatedAt":"2020-11-26T18:02:40.392325204+08:00","DeletedAt":null,"user_name":"test1","password":"$2a$10$9YkXjs.yUMZSk.O0HRZcuOKwtmCh0j8Zl5lV9AhQkLeNvvjAeD7Y6","nick_name":"","token":""}}
+
